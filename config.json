@@ -1,0 +1,27 @@
+{
+  "browsers":
+  [
+    {
+      "platform": "Windows 10",
+      "browserName": "chrome",
+      "version": "94.0"
+    }
+  ],
+  "tested_url": "https://www.bayut.com",
+  "webdriver_url": "http://localhost:9515",
+  "title": "Bayut: UAE's Largest Real Estate Portal",
+  "location_xpath": "//input[@class='a41c4dcc _6a3a3de9']",
+  "buy_btn_xpath": "//button[contains(@aria-label, 'Buy')]",
+  "dd_btn_xpath": "//span[contains(text(), 'Rent')]",
+  "autocomplete_first_elem": "//ul[@class='_3eb9be10 _9a03d150']/li[1]",
+  "page_summary": "//span[contains(@aria-label, 'Summary text')]",
+  "deal": "//div[contains(., 'Deal')]",
+  "script_class": "//*[@class='_357a9937']",
+  "script_type": ".//script[@type = 'application/ld+json']",
+  "banner": "//button[text()='Maybe Later']",
+  "next_page": "//a[@title='Next']",
+  "find_btn": "Find",
+  "location": "Dubai Marina",
+  "to_rent_btn": "//*[contains(text(),'To Rent')]",
+  "all_links": "//ul[@class='_22762832']/li/a"
+}
